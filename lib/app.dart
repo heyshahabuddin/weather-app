@@ -10,8 +10,8 @@ class WeatherApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Weather App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: const Color(0xFF0F1123),
+        primarySwatch: Colors.indigo,
+        scaffoldBackgroundColor: Colors.blueGrey,
       ),
       home: const HomeScreen(),
     );

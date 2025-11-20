@@ -20,7 +20,7 @@ class WeatherModel {
     final hourly = json['hourly'];
     final daily = json['daily'];
 
-    // Hourly data তে time না থাকলে index দিয়ে handle করব
+    // Hourly data handle
     List<HourlyData> hourlyList = [];
     final tempList = hourly['temperature_2m'] as List;
 

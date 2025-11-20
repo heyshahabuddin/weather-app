@@ -13,7 +13,7 @@ class WeatherRepository {
         "&daily=temperature_2m_max,temperature_2m_min,sunrise,sunset"
         "&forecast_days=10&timezone=Asia%2FDhaka";
 
-    print("API URL: $url"); // Debug এর জন্য
+    print("API URL: $url"); // Debug
 
     final response = await http.get(Uri.parse(url));
 
